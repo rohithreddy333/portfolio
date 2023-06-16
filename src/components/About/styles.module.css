@@ -1,0 +1,40 @@
+.aboutRoot {
+  margin-top: 5em;
+}
+
+.aboutHearder {
+  font-size: 100px;
+  font-family: "Consolas", monospace;
+  margin: 0%;
+}
+
+.fontGreen {
+  color: green;
+}
+
+.standOutFont {
+  font-size: 30px;
+}
+
+.aboutDescription{
+  font-size: 25px;
+  font-family: "Consolas", monospace;
+  padding: 3em 3em 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1350px) {
+  .aboutHearder {
+    font-size: 50px;
+    font-family: "Consolas", monospace;
+  }
+
+  .aboutDescription{
+    padding: 2em;
+  }
+
+  .standOutFont {
+    font-size: 25px;
+  }
+
+}

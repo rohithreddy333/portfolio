@@ -1,0 +1,87 @@
+.rootDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 7em 7em 0;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5em;
+}
+
+.profileImage {
+  height: 307px;
+  width: 409px;
+  animation: floater 3s infinite;
+  border-radius: 3%;
+}
+
+.helloTitle {
+  font-size: 100px;
+  font-family: "Consolas", monospace;
+  margin: 0px;
+}
+
+.blink {
+  animation: animate 3s linear infinite;
+}
+
+.homeDescription{
+  font-size: 25px;
+  font-family: "Consolas", monospace;
+}
+
+.fontGreen {
+  color: green;
+}
+
+.standOutFont {
+  font-size: 30px;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes floater {
+  0%{transform: translateY(0%);}
+  50%{transform: translateY(10%);}
+  100%{transform: translateY(0%);}
+}
+
+@media only screen and (max-width: 1350px) {
+  .rootDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0 0;
+  }
+
+  .contentDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+  }
+
+  .helloTitle {
+    font-size: 50px;
+  }
+
+  .profileImage {
+    height: 256px;
+    width: 340px;
+  }
+}
