@@ -1,0 +1,14 @@
+.contactRoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px 0px;
+}
+
+.spaceBetweenLinks {
+  margin: 0px 10px;
+}
+
+.copyright{
+  font-family: "Consolas", monospace;
+}
