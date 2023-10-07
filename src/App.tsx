@@ -5,6 +5,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import About from './components/About';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 const darkTheme = createTheme({
   palette: {
@@ -21,6 +22,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Contact />
       </div>
     </ThemeProvider>
   );
